@@ -93,5 +93,4 @@ MONGO_URI = 'mongodb://user:password@host:27017/database'
 CLOUD_STORAGE_BUCKET = 'appengine-storagebucket123'
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
-NAME = "bob"
-
+NAME = "ganesh";
