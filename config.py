@@ -85,12 +85,13 @@ MONGO_URI = 'mongodb://user:password@host:27017/database'
 #
 # You also need to make sure that the default ACL is set to public-read,
 # otherwise users will not be able to see their upload images:
-#
+
 #   $ gsutil defacl set public-read gs://<your-bucket-name>
-#
+#erghgegergewgesrgergergegergergeggergergergergergegege
 # You can adjust the max content length and allow extensions settings to allow
 # larger or more varied file types if desired.
 CLOUD_STORAGE_BUCKET = 'appengine-storagebucket123'
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
+
 
